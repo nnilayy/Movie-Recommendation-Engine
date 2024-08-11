@@ -3,11 +3,23 @@ import streamlit as st
 import requests
 import pandas as pd
 import os
-from dotenv import load_dotenv 
 
-# Loading the tmdb API key from the .env file
-load_dotenv()
-tmdb_api_key = os.getenv('TMDB_API_KEY')
+# # -----------------------------------------------------------------------------
+# #-----------------------------------------------------------------------------
+# # IF WORKING LOCALLY, USE dotenv TO LOAD THE API KEY
+# from dotenv import load_dotenv 
+# load_dotenv()
+# tmdb_api_key = os.getenv('TMDB_API_KEY')
+# #-----------------------------------------------------------------------------
+# #-----------------------------------------------------------------------------
+
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
+# USING STREAMLIT SECRETS TO LOAD THE API KEY FOR DEPLOYMENT
+tmdb_api_key = st.secrets["TMDB_API_KEY"]
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
 
 def fetch_poster(movie_id):
     url = f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={tmdb_api_key}&language=en-US"
