@@ -3,8 +3,10 @@
 A content-based Movie Recommender System built using Python. This project leverages natural language processing and machine learning techniques to recommend movies similar to a selected movie. The core functionalities are implemented in `Preprocessing.py`, while `app.py` handles the deployment using Streamlit, providing an interactive web interface.
 
 ## Demo
+<iframe width="600" height="400"
+src="https://www.youtube.com/embed/f7QgOaZI24Y" frameborder="0" allowfullscreen>
+</iframe>
 
-![App Demo](demo-video/mre-demo-video.mp4)
 
 ## Table of Contents
 
