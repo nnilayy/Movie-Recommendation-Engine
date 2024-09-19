@@ -195,6 +195,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- **Author**: Your Name
-- **Email**: youremail@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **Author**: Nilay Kumar Bhatnagar
+- **Email**: nnilayy.work@gmail.com
