@@ -4,9 +4,7 @@ A content-based Movie Recommender System built using Python. This project levera
 
 ## Demo
 
-![App Demo](demo.gif)
-
-*Note: Replace `demo.gif` with an actual GIF or screenshot showing the app in action.*
+![App Demo](demo-video/mre-demo-video.mp4)
 
 ## Table of Contents
 
