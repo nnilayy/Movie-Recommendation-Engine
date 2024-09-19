@@ -33,14 +33,14 @@ A content-based Movie Recommender System built using Python. This project levera
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/Movie-Recommender-Engine.git
+   git clone https://github.com/nnilayy/Movie-Recommender-Engine.git
    cd Movie-Recommender-Engine
    ```
 
 2. **Create a Virtual Environment (Optional but Recommended)**
 
    ```bash
-   python -m venv venv
+   uv venv venv
    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
    ```
 
