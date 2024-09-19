@@ -112,17 +112,6 @@ Movie-Recommender-Engine/
 - **model_files/**: Directory containing serialized model files.
 - **.env**: File containing environment variables (not included in the repository).
 
-## Requirements
-
-- **Python 3.x**
-- **Packages**: Listed in `requirements.txt`, including but not limited to:
-  - pandas
-  - numpy
-  - scikit-learn
-  - streamlit
-  - requests
-  - nltk (ensure you download necessary NLTK data)
-
 ## API Setup
 
 To fetch movie posters, the app uses TMDB API. Follow these steps to set up:
