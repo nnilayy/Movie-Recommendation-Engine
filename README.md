@@ -2,6 +2,12 @@
 
 A content-based Movie Recommender System built using Python. This project leverages natural language processing and machine learning techniques to recommend movies similar to a selected movie. The core functionalities are implemented in `Preprocessing.py`, while `app.py` handles the deployment using Streamlit, providing an interactive web interface.
 
+## Demo
+
+![App Demo](demo.gif)
+
+*Note: Replace `demo.gif` with an actual GIF or screenshot showing the app in action.*
+
 ## Table of Contents
 
 - [Features](#features)
@@ -21,12 +27,6 @@ A content-based Movie Recommender System built using Python. This project levera
 - **Interactive Web Interface**: Users can select a movie and receive top 5 similar movie recommendations with posters.
 - **Movie Posters**: Fetches and displays movie posters using The Movie Database (TMDB) API.
 - **Deployment Ready**: Easily deployable using Streamlit for web applications.
-
-## Demo
-
-![App Demo](demo.gif)
-
-*Note: Replace `demo.gif` with an actual GIF or screenshot showing the app in action.*
 
 ## Installation
 
